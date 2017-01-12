@@ -1,0 +1,13 @@
+{
+    "name": "armandfardeau/symphony2",
+    "description": "a simple sympony project",
+    "require": {
+        "twig/twig": "^2.1"
+    },
+    "authors": [
+        {
+            "name": "Armand Fardeau",
+            "email": "fardeauarmand@gmail.com"
+        }
+    ]
+}
