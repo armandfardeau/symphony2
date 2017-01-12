@@ -1,9 +1,15 @@
 {
     "name": "armandfardeau/symphony2",
     "description": "a simple sympony project",
-    "require": {
-        "twig/twig": "^2.1"
-    },
+    "require": {},
+{
+    "autoload": {
+        "psr-4": {
+            "Monolog\\": "src/",
+            "Vendor\\Namespace\\": ""
+        }
+    }
+},
     "authors": [
         {
             "name": "Armand Fardeau",
