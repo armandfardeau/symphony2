@@ -1,19 +1,17 @@
 {
-    "name": "armandfardeau/symphony2",
-    "description": "a simple sympony project",
-    "require": {},
-{
-    "autoload": {
-        "psr-4": {
-            "Monolog\\": "src/",
-            "Vendor\\Namespace\\": ""
-        }
+  "name": "armandfardeau/symphony2",
+  "description": "a simple sympony project",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Acme\\" : "src/acme/",
+      "Toto\\" : "Toto/wangame/"
     }
-},
-    "authors": [
-        {
-            "name": "Armand Fardeau",
-            "email": "fardeauarmand@gmail.com"
-        }
-    ]
+  },
+  "authors": [
+    {
+      "name": "Armand Fardeau",
+      "email": "fardeauarmand@gmail.com"
+    }
+  ]
 }
